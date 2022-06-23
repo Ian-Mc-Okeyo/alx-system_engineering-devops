@@ -1,2 +1,2 @@
 #!/bin/bash
-find $pwd -exec chown vincent:staff {} \
+find $pwd -name * -exec chown vincent:staff {} \
